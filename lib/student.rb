@@ -21,7 +21,9 @@ class Student
   def self.all
     # retrieve all the rows from the "Students" database
     # remember each row should be a new instance of the Student class
-    sql = <<-SQL
+    sql = <<- SQL
+    SELECT *
+    FROM student
     
   end
 
