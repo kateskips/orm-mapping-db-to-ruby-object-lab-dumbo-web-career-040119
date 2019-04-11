@@ -46,7 +46,6 @@ class Student
     end.first
   end
     
-  end
   
   def save
     sql = <<-SQL
